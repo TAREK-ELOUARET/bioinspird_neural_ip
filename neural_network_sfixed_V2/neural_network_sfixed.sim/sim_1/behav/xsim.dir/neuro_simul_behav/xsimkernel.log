@@ -1,0 +1,7 @@
+Running: xsim.dir/neuro_simul_behav/xsimk -simmode gui -wdb neuro_simul_behav.wdb -simrunnum 0 -socket 47505
+Design successfully loaded
+Design Loading Memory Usage: 50136 KB (Peak: 50228 KB)
+Design Loading CPU Usage: 20 ms
+Simulation completed
+Simulation Memory Usage: 140072 KB (Peak: 197408 KB)
+Simulation CPU Usage: 50 ms

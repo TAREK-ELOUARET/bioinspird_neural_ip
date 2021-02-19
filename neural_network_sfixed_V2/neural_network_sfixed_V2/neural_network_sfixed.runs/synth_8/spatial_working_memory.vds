@@ -1,0 +1,36 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:19 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Wed Feb 17 16:14:16 2021
+# Process ID: 37298
+# Current directory: /users/tareelou/neural_network_sfixed_V2/neural_network_sfixed.runs/synth_8
+# Command line: vivado -log spatial_working_memory.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source spatial_working_memory.tcl
+# Log file: /users/tareelou/neural_network_sfixed_V2/neural_network_sfixed.runs/synth_8/spatial_working_memory.vds
+# Journal file: /users/tareelou/neural_network_sfixed_V2/neural_network_sfixed.runs/synth_8/vivado.jou
+#-----------------------------------------------------------
+source spatial_working_memory.tcl -notrace
+Command: synth_design -top spatial_working_memory -part xc7z045ffg900-2 -flatten_hierarchy none -directive RuntimeOptimized -fsm_extraction off
+INFO: [Common 17-1223] The version limit for your license is '2019.01' and will expire in -748 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 37333 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1130.531 ; gain = 200.105 ; free physical = 55445 ; free virtual = 68888
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'spatial_working_memory' [/users/tareelou/neural_network_sfixed_V2/neural_network_sfixed.srcs/sources_1/new/spatial_working_memory.vhd:36]
+WARNING: [Synth 8-613] shared variable will be implemented as local to architecture [/users/tareelou/neural_network_sfixed_V2/neural_network_sfixed.srcs/sources_1/new/spatial_working_memory.vhd:40]
+WARNING: [Synth 8-613] shared variable will be implemented as local to architecture [/users/tareelou/neural_network_sfixed_V2/neural_network_sfixed.srcs/sources_1/new/spatial_working_memory.vhd:42]
+WARNING: [Synth 8-5639] ignoring null variable initialization [/users/tareelou/neural_network_sfixed_V2/neural_network_sfixed.srcs/sources_1/imports/ieee/fixed_pkg_c.vhd:4525]
+WARNING: [Synth 8-5639] ignoring null variable initialization [/users/tareelou/neural_network_sfixed_V2/neural_network_sfixed.srcs/sources_1/imports/ieee/fixed_pkg_c.vhd:4527]
+WARNING: [Synth 8-5639] ignoring null variable initialization [/users/tareelou/neural_network_sfixed_V2/neural_network_sfixed.srcs/sources_1/imports/ieee/fixed_pkg_c.vhd:2494]
+WARNING: [Synth 8-3919] null assignment ignored [/users/tareelou/neural_network_sfixed_V2/neural_network_sfixed.srcs/sources_1/imports/Neural_HDL_V_SFIXED/package_type.vhd:130]
+WARNING: [Synth 8-5639] ignoring null variable initialization [/users/tareelou/neural_network_sfixed_V2/neural_network_sfixed.srcs/sources_1/imports/ieee/fixed_pkg_c.vhd:4525]
+WARNING: [Synth 8-5639] ignoring null variable initialization [/users/tareelou/neural_network_sfixed_V2/neural_network_sfixed.srcs/sources_1/imports/ieee/fixed_pkg_c.vhd:4527]
+WARNING: [Synth 8-5639] ignoring null variable initialization [/users/tareelou/neural_network_sfixed_V2/neural_network_sfixed.srcs/sources_1/imports/ieee/fixed_pkg_c.vhd:2494]
+WARNING: [Synth 8-3919] null assignment ignored [/users/tareelou/neural_network_sfixed_V2/neural_network_sfixed.srcs/sources_1/imports/Neural_HDL_V_SFIXED/package_type.vhd:152]
+WARNING: [Synth 8-613] shared variable will be implemented as local to architecture [/users/tareelou/neural_network_sfixed_V2/neural_network_sfixed.srcs/sources_1/new/spatial_working_memory.vhd:43]
+WARNING: [Synth 8-613] shared variable will be implemented as local to architecture [/users/tareelou/neural_network_sfixed_V2/neural_network_sfixed.srcs/sources_1/new/spatial_working_memory.vhd:45]
+WARNING: [Synth 8-614] signal 'azimuth_neurons' is read in the process but is not in the sensitivity list [/users/tareelou/neural_network_sfixed_V2/neural_network_sfixed.srcs/sources_1/new/spatial_working_memory.vhd:169]
+WARNING: [Synth 8-614] signal 'azimuth_weight' is read in the process but is not in the sensitivity list [/users/tareelou/neural_network_sfixed_V2/neural_network_sfixed.srcs/sources_1/new/spatial_working_memory.vhd:169]
+WARNING: [Synth 8-614] signal 'number_of_line_max_WTA' is read in the process but is not in the sensitivity list [/users/tareelou/neural_network_sfixed_V2/neural_network_sfixed.srcs/sources_1/new/spatial_working_memory.vhd:169]
+WARNING: [Synth 8-614] signal 'signature_neurons' is read in the process but is not in the sensitivity list [/users/tareelou/neural_network_sfixed_V2/neural_network_sfixed.srcs/sources_1/new/spatial_working_memory.vhd:169]

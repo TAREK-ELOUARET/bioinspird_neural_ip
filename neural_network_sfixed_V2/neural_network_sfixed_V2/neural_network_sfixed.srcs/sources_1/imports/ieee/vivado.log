@@ -1,0 +1,423 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:19 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Thu Feb  4 09:59:05 2021
+# Process ID: 62819
+# Current directory: /users/tareelou/neural_network_sfixed/neural_network_sfixed.srcs/sources_1/imports/ieee
+# Command line: vivado
+# Log file: /users/tareelou/neural_network_sfixed/neural_network_sfixed.srcs/sources_1/imports/ieee/vivado.log
+# Journal file: /users/tareelou/neural_network_sfixed/neural_network_sfixed.srcs/sources_1/imports/ieee/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /users/tareelou/neural_network_sfixed/neural_network_sfixed.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/apps/Xilinx/Vivado/2016.4/data/ip'.
+open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:31 . Memory (MB): peak = 6105.316 ; gain = 69.828 ; free physical = 41892 ; free virtual = 62429
+reset_run synth_1
+launch_runs impl_1 -jobs 8
+[Thu Feb  4 10:00:39 2021] Launched synth_1...
+Run output will be captured here: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/synth_1/runme.log
+[Thu Feb  4 10:00:39 2021] Launched impl_1...
+Run output will be captured here: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/impl_1/runme.log
+reset_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+INFO: [HDL 9-1061] Parsing VHDL file "/users/tareelou/neural_network_sfixed/neural_network_sfixed.srcs/sources_1/imports/Neural_HDL_V_SFIXED/package_type.vhd" into library neuronal [/users/tareelou/neural_network_sfixed/neural_network_sfixed.srcs/sources_1/imports/Neural_HDL_V_SFIXED/package_type.vhd:1]
+[Thu Feb  4 10:49:02 2021] Launched synth_1...
+Run output will be captured here: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 impl_1 synth_8 imple_230 imple_231 imple_232 imple_233 imple_234 imple_235 imple_236 imple_237 imple_238 imple_239 imple_240 imple_241 imple_242 imple_243 imple_244 imple_245 imple_246 imple_247 imple_248 imple_249 imple_250 imple_251 imple_252 imple_253 imple_254 imple_255 imple_256 -jobs 8
+INFO: [HDL 9-1061] Parsing VHDL file "/users/tareelou/neural_network_sfixed/neural_network_sfixed.srcs/sources_1/imports/Neural_HDL_V_SFIXED/package_type.vhd" into library neuronal [/users/tareelou/neural_network_sfixed/neural_network_sfixed.srcs/sources_1/imports/Neural_HDL_V_SFIXED/package_type.vhd:1]
+[Thu Feb  4 14:46:56 2021] Launched synth_8, synth_1...
+Run output will be captured here:
+synth_8: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/synth_8/runme.log
+synth_1: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/synth_1/runme.log
+[Thu Feb  4 14:46:56 2021] Launched synth_1, impl_1, synth_8, imple_230, imple_231, imple_232, imple_233, imple_234, imple_235, imple_236, imple_237, imple_238, imple_239, imple_240, imple_241, imple_242, imple_243, imple_244, imple_245, imple_246, imple_247, imple_248, imple_249, imple_250, imple_251, imple_252, imple_253, imple_254, imple_255, imple_256...
+Run output will be captured here:
+synth_1: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/synth_1/runme.log
+impl_1: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/impl_1/runme.log
+synth_8: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/synth_8/runme.log
+imple_230: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/imple_230/runme.log
+imple_231: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/imple_231/runme.log
+imple_232: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/imple_232/runme.log
+imple_233: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/imple_233/runme.log
+imple_234: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/imple_234/runme.log
+imple_235: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/imple_235/runme.log
+imple_236: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/imple_236/runme.log
+imple_237: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/imple_237/runme.log
+imple_238: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/imple_238/runme.log
+imple_239: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/imple_239/runme.log
+imple_240: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/imple_240/runme.log
+imple_241: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/imple_241/runme.log
+imple_242: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/imple_242/runme.log
+imple_243: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/imple_243/runme.log
+imple_244: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/imple_244/runme.log
+imple_245: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/imple_245/runme.log
+imple_246: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/imple_246/runme.log
+imple_247: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/imple_247/runme.log
+imple_248: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/imple_248/runme.log
+imple_249: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/imple_249/runme.log
+imple_250: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/imple_250/runme.log
+imple_251: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/imple_251/runme.log
+imple_252: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/imple_252/runme.log
+imple_253: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/imple_253/runme.log
+imple_254: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/imple_254/runme.log
+imple_255: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/imple_255/runme.log
+imple_256: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/imple_256/runme.log
+launch_runs: Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 6257.469 ; gain = 0.000 ; free physical = 42460 ; free virtual = 63087
+reset_run impl_1
+reset_run imple_230
+reset_run imple_231
+reset_run imple_232
+reset_run imple_233
+reset_run imple_234
+reset_run imple_235
+reset_run imple_236
+reset_run imple_237
+reset_run imple_238
+reset_run imple_239
+reset_run imple_240
+reset_run imple_241
+reset_run imple_242
+reset_run imple_243
+reset_run imple_244
+reset_run imple_245
+reset_run imple_246
+reset_run imple_247
+reset_run imple_248
+reset_run imple_249
+reset_run imple_250
+reset_run imple_251
+reset_run imple_252
+reset_run imple_253
+reset_run imple_254
+reset_run imple_255
+reset_run imple_256
+reset_run synth_1
+reset_run synth_8
+launch_runs synth_1 impl_1 synth_8 imple_230 imple_231 imple_232 imple_233 imple_234 imple_235 imple_236 imple_237 imple_238 imple_239 imple_240 imple_241 imple_242 imple_243 imple_244 imple_245 imple_246 imple_247 imple_248 imple_249 imple_250 imple_251 imple_252 imple_253 imple_254 imple_255 imple_256 -jobs 8
+INFO: [HDL 9-1061] Parsing VHDL file "/users/tareelou/neural_network_sfixed/neural_network_sfixed.srcs/sources_1/imports/Neural_HDL_V_SFIXED/package_type.vhd" into library neuronal [/users/tareelou/neural_network_sfixed/neural_network_sfixed.srcs/sources_1/imports/Neural_HDL_V_SFIXED/package_type.vhd:1]
+[Thu Feb  4 14:49:32 2021] Launched synth_8, synth_1...
+Run output will be captured here:
+synth_8: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/synth_8/runme.log
+synth_1: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/synth_1/runme.log
+[Thu Feb  4 14:49:32 2021] Launched synth_1, impl_1, synth_8, imple_230, imple_231, imple_232, imple_233, imple_234, imple_235, imple_236, imple_237, imple_238, imple_239, imple_240, imple_241, imple_242, imple_243, imple_244, imple_245, imple_246, imple_247, imple_248, imple_249, imple_250, imple_251, imple_252, imple_253, imple_254, imple_255, imple_256...
+Run output will be captured here:
+synth_1: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/synth_1/runme.log
+impl_1: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/impl_1/runme.log
+synth_8: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/synth_8/runme.log
+imple_230: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/imple_230/runme.log
+imple_231: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/imple_231/runme.log
+imple_232: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/imple_232/runme.log
+imple_233: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/imple_233/runme.log
+imple_234: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/imple_234/runme.log
+imple_235: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/imple_235/runme.log
+imple_236: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/imple_236/runme.log
+imple_237: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/imple_237/runme.log
+imple_238: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/imple_238/runme.log
+imple_239: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/imple_239/runme.log
+imple_240: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/imple_240/runme.log
+imple_241: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/imple_241/runme.log
+imple_242: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/imple_242/runme.log
+imple_243: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/imple_243/runme.log
+imple_244: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/imple_244/runme.log
+imple_245: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/imple_245/runme.log
+imple_246: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/imple_246/runme.log
+imple_247: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/imple_247/runme.log
+imple_248: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/imple_248/runme.log
+imple_249: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/imple_249/runme.log
+imple_250: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/imple_250/runme.log
+imple_251: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/imple_251/runme.log
+imple_252: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/imple_252/runme.log
+imple_253: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/imple_253/runme.log
+imple_254: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/imple_254/runme.log
+imple_255: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/imple_255/runme.log
+imple_256: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/imple_256/runme.log
+launch_runs: Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 6257.469 ; gain = 0.000 ; free physical = 42455 ; free virtual = 63083
+reset_run synth_1
+reset_run imple_230
+reset_run imple_231
+reset_run imple_232
+reset_run imple_233
+reset_run imple_234
+reset_run imple_235
+reset_run imple_236
+reset_run imple_237
+reset_run imple_238
+reset_run imple_239
+reset_run imple_240
+reset_run imple_241
+reset_run imple_242
+reset_run imple_243
+reset_run imple_244
+reset_run imple_245
+reset_run imple_246
+reset_run imple_247
+reset_run imple_248
+reset_run imple_249
+reset_run imple_250
+reset_run imple_251
+reset_run imple_252
+reset_run imple_253
+reset_run imple_254
+reset_run imple_255
+reset_run imple_256
+reset_run synth_8
+set_property top spatial_working_memory [current_fileset]
+launch_runs synth_8 -jobs 8
+INFO: [HDL 9-1061] Parsing VHDL file "/users/tareelou/neural_network_sfixed/neural_network_sfixed.srcs/sources_1/imports/Neural_HDL_V_SFIXED/package_type.vhd" into library neuronal [/users/tareelou/neural_network_sfixed/neural_network_sfixed.srcs/sources_1/imports/Neural_HDL_V_SFIXED/package_type.vhd:1]
+[Fri Feb  5 14:16:55 2021] Launched synth_8...
+Run output will be captured here: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/synth_8/runme.log
+launch_runs synth_1 -jobs 8
+INFO: [HDL 9-1061] Parsing VHDL file "/users/tareelou/neural_network_sfixed/neural_network_sfixed.srcs/sources_1/imports/Neural_HDL_V_SFIXED/package_type.vhd" into library neuronal [/users/tareelou/neural_network_sfixed/neural_network_sfixed.srcs/sources_1/imports/Neural_HDL_V_SFIXED/package_type.vhd:1]
+[Fri Feb  5 14:17:47 2021] Launched synth_1...
+Run output will be captured here: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+INFO: [HDL 9-1061] Parsing VHDL file "/users/tareelou/neural_network_sfixed/neural_network_sfixed.srcs/sources_1/new/spatial_working_memory.vhd" into library xil_defaultlib [/users/tareelou/neural_network_sfixed/neural_network_sfixed.srcs/sources_1/new/spatial_working_memory.vhd:1]
+[Fri Feb  5 14:20:17 2021] Launched synth_1...
+Run output will be captured here: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/synth_1/runme.log
+reset_run synth_1
+reset_run synth_8
+launch_runs synth_1 synth_8 -jobs 8
+INFO: [HDL 9-1061] Parsing VHDL file "/users/tareelou/neural_network_sfixed/neural_network_sfixed.srcs/sources_1/imports/Neural_HDL_V_SFIXED/package_type.vhd" into library neuronal [/users/tareelou/neural_network_sfixed/neural_network_sfixed.srcs/sources_1/imports/Neural_HDL_V_SFIXED/package_type.vhd:1]
+[Fri Feb  5 14:37:42 2021] Launched synth_1, synth_8...
+Run output will be captured here:
+synth_1: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/synth_1/runme.log
+synth_8: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/synth_8/runme.log
+reset_run synth_8
+reset_run synth_1
+launch_runs synth_8 synth_1 -jobs 8
+INFO: [HDL 9-1061] Parsing VHDL file "/users/tareelou/neural_network_sfixed/neural_network_sfixed.srcs/sources_1/imports/Neural_HDL_V_SFIXED/package_type.vhd" into library neuronal [/users/tareelou/neural_network_sfixed/neural_network_sfixed.srcs/sources_1/imports/Neural_HDL_V_SFIXED/package_type.vhd:1]
+[Fri Feb  5 16:36:01 2021] Launched synth_8, synth_1...
+Run output will be captured here:
+synth_8: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/synth_8/runme.log
+synth_1: /users/tareelou/neural_network_sfixed/neural_network_sfixed.runs/synth_1/runme.log
+report_utilization
+ERROR: [Common 17-53] User Exception: No open design. Please open an elaborated, synthesized or implemented design before executing this command.
+report_utilization synth_1
+ERROR: [Common 17-165] Too many positional options when parsing 'synth_1', please type 'report_utilization -help' for usage info.
+report_utilization --help
+ERROR: [Common 17-170] Unknown option '--help', please type 'report_utilization -help' for usage info.
+report_utilization -help
+report_utilization
+
+Description: 
+Compute utilization of device and display report
+
+Syntax: 
+report_utilization  [-file <arg>] [-append] [-pblocks <args>] [-cells <args>]
+                    [-return_string] [-slr] [-packthru] [-name <arg>]
+                    [-no_primitives] [-omit_locs] [-hierarchical]
+                    [-spreadsheet_file <arg>] [-spreadsheet_table <arg>]
+                    [-spreadsheet_depth <arg>] [-hierarchical_depth <arg>]
+                    [-hierarchical_percentages] [-quiet] [-verbose]
+
+Returns: 
+Report
+
+Usage: 
+  Name                         Description
+  ----------------------------------------
+  [-file]                      Filename to output results to. (send output to
+                               console if -file is not used)
+  [-append]                    Append the results to file, don't overwrite 
+                               the results file
+  [-pblocks]                   Report utilization of given list of pblocks
+  [-cells]                     Report utilization of given list of cells
+  [-return_string]             Return report as string
+  [-slr]                       SLR wise utilization of resources
+  [-packthru]                  Reports LUTs used exclusively as pack-thru
+  [-name]                      Output the results to GUI panel with this name
+  [-no_primitives]             Removes "Primitives Section" from 
+                               report_utilization o/p.
+  [-omit_locs]                 Removes "Loced" column from report_utilization
+                               o/p.
+  [-hierarchical]              Generates text-based hierarchical report.
+  [-spreadsheet_file]          Specify file for exporting utilization tables 
+                               as spreadsheets. This feature is available 
+                               only in GUI mode.
+  [-spreadsheet_table]         Choose a particular utilization table to 
+                               export as spreadsheet file. Default value : 
+                               Hierarchy
+  [-spreadsheet_depth]         Specifies the depth level for spreadsheet. 
+                               Default value : 8
+                               Default: 8
+  [-hierarchical_depth]        Specifies the depth level for textual 
+                               hierarchical report
+                               Default: 0
+  [-hierarchical_percentages]  Report percentages in textual hierarchical 
+                               report
+  [-quiet]                     Ignore command errors
+  [-verbose]                   Suspend message limits during command 
+                               execution
+
+Categories: 
+Report
+
+Description:
+
+  Report the utilization of resources on the target part by the current
+  synthesized or implemented design. The report is returned to the standard
+  output, unless the -file, -return_string, or -name arguments are specified.
+
+  Note: Though resource utilization can be reported early in the design
+  process, the report will be more accurate as the design progresses from
+  synthesis through implementation.
+
+  This command returns the requested information, or returns an error if it
+  fails.
+
+Arguments:
+
+  -file <arg> - (Optional) Write the report into the specified file. The
+  specified file will be overwritten if one already exists, unless -append is
+  also specified.
+
+  Note: If the path is not specified as part of the file name, the file will
+  be written into the current working directory, or the directory from which
+  the tool was launched.
+
+  -append - (Optional) Append the output of the command to the specified file
+  rather than overwriting it.
+
+  Note: The -append option can only be used with the -file option.
+
+  -pblocks <arg> - (Optional) Report the resources utilized by one or more
+  Pblocks in the design.
+
+  Note: -pblocks can not be used with the -name option.
+
+  -cells <arg> - (Optional) Report the resources utilized by one or more
+  hierarchical cells in the current design.
+
+  -return_string - (Optional) Directs the output to a Tcl string rather than
+  to the standard output. The Tcl string can be captured by a variable
+  definition and parsed or otherwise processed.
+
+  Note: This argument cannot be used with the -file option.
+
+  -slr - (Optional) Reports the utilization for each separate SLR in devices
+  having SLRs.
+
+  -packthru - (Optional) Reports LUTs used for route through purposes. This
+  appears in the utilization report as "LUTs used exclusively as
+  route-thrus".
+
+  -name <arg> - (Optional) Specifies the name of the results to output to the
+  GUI.
+
+  -no_primitives - (Optional) Remove the Primitives section from the report.
+  The Primitives section reports the number and type of logic primitives used
+  on the device.
+
+  -omit_locs - (Optional) Omit the LOCed column from the report. The LOCed
+  column reports the quantity of logic elements that have been placed onto
+  the fabric of the device.
+
+  -hierarchical - (Optional) Reports the utilization of the device broken
+  down according to the hierarchy of the design.
+
+  -hierarchical_depth <arg> - (Optional) Specifies the depth of the hierarchy
+  to report when reporting utilization according to the hierarchy. The
+  default depth is 0, which means that -hierarchical will only report the
+  top-level by default.
+
+  -hierarchical_percentages - (Optional) Specifies that utilization data in
+  the hierarchical report be reported as percentages.
+
+  -spreadsheet_file <arg> - (Optional) Export utilization tables to the
+  specified XLSX format spreadsheet. The ability to export a spreadsheet file
+  is only available when the -name option is also specified and the report is
+  generated in the GUI.
+
+  Note: You should specify the .xlsx suffix for the specified file, as it is
+  not automatically assigned. If the path is not specified as part of the
+  file name, the file will be written into the current working directory,
+  which may be the directory from which the Vivado tool was launched.
+
+  -spreadsheet_table <arg> - (Optional) Specify a utilization table to export
+  to the spreadsheet file. The default is to export the Hierarchy table for
+  the whole design. This options requires the use of -spreadsheet_file. The
+  table name is displayed in the Report Utilization window when a specific
+  table is selected from the tree view. Some example table names are:
+
+   *  "Hierarchy"
+
+   *  "Slice Logic Distribution"
+
+   *  "Slice Logic Distribution - LUT as Memory"
+
+   *  "Slice Logic Distribution - LUT as Memory - LUT as Distributed RAM"
+
+   *  "Slice Logic Distribution - LUT as Memory - LUT as Shift Register"
+
+   *  "Slice Logic Distribution - LUT as Logic"
+
+   *  "Slice Logic - F8 Muxes"
+
+   *  "Slice Logic - Slice Registers"
+
+   *  "Slice Logic - Slice Registers - Registers as AND/OR"
+
+   *  "Memory - Block RAM Tile"
+
+   *  "Memory - Block RAM Tile - RAMB18"
+
+   *  "DSP - DSPs"
+
+   *  "Clocking - BUFGCTRL"
+
+   *  "Specific Feature - BSCANE2"
+
+   *  "Primitives"
+
+  -spreadsheet_depth <arg> - (Optional) Specifies the hierarchical depth,
+  starting from the top-level of the design, to export to the spreadsheet
+  file. The default value is 8. This options requires the use of
+  -spreadsheet_file.
+
+  -quiet - (Optional) Execute the command quietly, returning no messages from
+  the command. The command also returns TCL_OK regardless of any errors
+  encountered during execution.
+
+  Note: Any errors encountered on the command-line, while launching the
+  command, will be returned. Only errors occurring inside the command will be
+  trapped.
+
+  -verbose - (Optional) Temporarily override any message limits and return
+  all messages from this command.
+
+  Note: Message limits can be defined with the set_msg_config command.
+
+Examples:
+
+  The following example reports the resources collectively utilized by all
+  the Pblocks in the design, and writes the results to the specified file:
+
+    report_utilization -pblocks [get_pblocks] -file C:/Data/pblocks_util.txt
+
+  This example reports the utilization for the whole design to the named
+  report in the GUI, but exports the "Clocking - BUFGCTRL" table to the
+  specified spreadsheet file:
+
+    report_utilization -name utilization_1 -spreadsheet_file util_table.xlsx \ 
+    -spreadsheet_table "Clocking - BUFGCTRL"
+
+  The following example reports the resources utilized by each Pblock in the
+  design, appending the report for each Pblock to a single specified file:
+
+    foreach x [get_pblocks] { 
+      puts "Reporting Pblock: $x ----------------------------------" 
+      report_utilization -append -file C:/Data/pblocks_util.txt -pblocks $x 
+    }
+
+See Also:
+
+   *  delete_utilization_results
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Feb  8 09:47:53 2021...

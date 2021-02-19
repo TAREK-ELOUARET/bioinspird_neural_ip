@@ -1,0 +1,49 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:19 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Fri Feb 19 14:32:46 2021
+# Process ID: 26089
+# Current directory: /users/tareelou/neural_network_sfixed_V2/neural_network_sfixed.runs/synth_8
+# Command line: vivado -log top_level.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_level.tcl
+# Log file: /users/tareelou/neural_network_sfixed_V2/neural_network_sfixed.runs/synth_8/top_level.vds
+# Journal file: /users/tareelou/neural_network_sfixed_V2/neural_network_sfixed.runs/synth_8/vivado.jou
+#-----------------------------------------------------------
+source top_level.tcl -notrace
+INFO: [Common 17-1223] The version limit for your license is '2019.01' and will expire in -750 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 26111 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1130.531 ; gain = 200.105 ; free physical = 58438 ; free virtual = 79906
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'top_level' [/users/tareelou/neural_network_sfixed_V2/neural_network_sfixed.srcs/sources_1/imports/Neural_HDL_V_SFIXED/top_level.vhd:40]
+WARNING: [Synth 8-5639] ignoring null variable initialization [/users/tareelou/neural_network_sfixed_V2/neural_network_sfixed.srcs/sources_1/imports/ieee/fixed_pkg_c.vhd:4525]
+WARNING: [Synth 8-5639] ignoring null variable initialization [/users/tareelou/neural_network_sfixed_V2/neural_network_sfixed.srcs/sources_1/imports/ieee/fixed_pkg_c.vhd:4527]
+WARNING: [Synth 8-5639] ignoring null variable initialization [/users/tareelou/neural_network_sfixed_V2/neural_network_sfixed.srcs/sources_1/imports/ieee/fixed_pkg_c.vhd:2494]
+WARNING: [Synth 8-3919] null assignment ignored [/users/tareelou/neural_network_sfixed_V2/neural_network_sfixed.srcs/sources_1/imports/Neural_HDL_V_SFIXED/package_type.vhd:132]
+WARNING: [Synth 8-5639] ignoring null variable initialization [/users/tareelou/neural_network_sfixed_V2/neural_network_sfixed.srcs/sources_1/imports/ieee/fixed_pkg_c.vhd:4525]
+WARNING: [Synth 8-5639] ignoring null variable initialization [/users/tareelou/neural_network_sfixed_V2/neural_network_sfixed.srcs/sources_1/imports/ieee/fixed_pkg_c.vhd:4527]
+WARNING: [Synth 8-5639] ignoring null variable initialization [/users/tareelou/neural_network_sfixed_V2/neural_network_sfixed.srcs/sources_1/imports/ieee/fixed_pkg_c.vhd:2494]
+WARNING: [Synth 8-3919] null assignment ignored [/users/tareelou/neural_network_sfixed_V2/neural_network_sfixed.srcs/sources_1/imports/Neural_HDL_V_SFIXED/package_type.vhd:154]
+	Parameter SIZE_WIDTH bound to: 16 - type: integer 
+	Parameter NBR_NEURON bound to: 100 - type: integer 
+	Parameter NBR_PIXELS bound to: 2916 - type: integer 
+INFO: [Synth 8-3491] module 'neuro_bio' declared at '/users/tareelou/neural_network_sfixed_V2/neural_network_sfixed.srcs/sources_1/imports/Neural_HDL_V_SFIXED/neuro_bio.vhd:13' bound to instance 'U1' of component 'neuro_bio' [/users/tareelou/neural_network_sfixed_V2/neural_network_sfixed.srcs/sources_1/imports/Neural_HDL_V_SFIXED/top_level.vhd:129]
+INFO: [Synth 8-638] synthesizing module 'neuro_bio' [/users/tareelou/neural_network_sfixed_V2/neural_network_sfixed.srcs/sources_1/imports/Neural_HDL_V_SFIXED/neuro_bio.vhd:31]
+	Parameter SIZE_WIDTH bound to: 16 - type: integer 
+	Parameter NBR_NEURON bound to: 100 - type: integer 
+	Parameter NBR_PIXELS bound to: 2916 - type: integer 
+WARNING: [Synth 8-613] shared variable will be implemented as local to architecture [/users/tareelou/neural_network_sfixed_V2/neural_network_sfixed.srcs/sources_1/imports/Neural_HDL_V_SFIXED/neuro_bio.vhd:38]
+WARNING: [Synth 8-613] shared variable will be implemented as local to architecture [/users/tareelou/neural_network_sfixed_V2/neural_network_sfixed.srcs/sources_1/imports/Neural_HDL_V_SFIXED/neuro_bio.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'neuro_bio' (1#1) [/users/tareelou/neural_network_sfixed_V2/neural_network_sfixed.srcs/sources_1/imports/Neural_HDL_V_SFIXED/neuro_bio.vhd:31]
+	Parameter SIZE_WIDTH bound to: 16 - type: integer 
+	Parameter NBR_NEURON bound to: 100 - type: integer 
+	Parameter NBR_PIXELS bound to: 2916 - type: integer 
+INFO: [Synth 8-3491] module 'neuro_bio' declared at '/users/tareelou/neural_network_sfixed_V2/neural_network_sfixed.srcs/sources_1/imports/Neural_HDL_V_SFIXED/neuro_bio.vhd:13' bound to instance 'U1' of component 'neuro_bio' [/users/tareelou/neural_network_sfixed_V2/neural_network_sfixed.srcs/sources_1/imports/Neural_HDL_V_SFIXED/top_level.vhd:129]
+	Parameter SIZE_WIDTH bound to: 16 - type: integer 
+	Parameter NBR_NEURON bound to: 100 - type: integer 
+	Parameter NBR_PIXELS bound to: 2916 - type: integer 
+INFO: [Synth 8-3491] module 'neuro_bio' declared at '/users/tareelou/neural_network_sfixed_V2/neural_network_sfixed.srcs/sources_1/imports/Neural_HDL_V_SFIXED/neuro_bio.vhd:13' bound to instance 'U1' of component 'neuro_bio' [/users/tareelou/neural_network_sfixed_V2/neural_network_sfixed.srcs/sources_1/imports/Neural_HDL_V_SFIXED/top_level.vhd:129]
+	Parameter SIZE_WIDTH bound to: 16 - type: integer 
+	Parameter NBR_NEURON bound to: 100 - type: integer 
+	Parameter NBR_PIXELS bound to: 2916 - type: integer 

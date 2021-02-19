@@ -1,0 +1,168 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:19 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Thu Feb  4 09:59:05 2021
+# Process ID: 62819
+# Current directory: /users/tareelou/neural_network_sfixed/neural_network_sfixed.srcs/sources_1/imports/ieee
+# Command line: vivado
+# Log file: /users/tareelou/neural_network_sfixed/neural_network_sfixed.srcs/sources_1/imports/ieee/vivado.log
+# Journal file: /users/tareelou/neural_network_sfixed/neural_network_sfixed.srcs/sources_1/imports/ieee/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /users/tareelou/neural_network_sfixed/neural_network_sfixed.xpr
+reset_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+reset_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 impl_1 synth_8 imple_230 imple_231 imple_232 imple_233 imple_234 imple_235 imple_236 imple_237 imple_238 imple_239 imple_240 imple_241 imple_242 imple_243 imple_244 imple_245 imple_246 imple_247 imple_248 imple_249 imple_250 imple_251 imple_252 imple_253 imple_254 imple_255 imple_256 -jobs 8
+wait_on_run synth_1
+wait_on_run impl_1
+wait_on_run synth_8
+wait_on_run imple_230
+wait_on_run imple_231
+wait_on_run imple_232
+wait_on_run imple_233
+wait_on_run imple_234
+wait_on_run imple_235
+wait_on_run imple_236
+wait_on_run imple_237
+wait_on_run imple_238
+wait_on_run imple_239
+wait_on_run imple_240
+wait_on_run imple_241
+wait_on_run imple_242
+wait_on_run imple_243
+wait_on_run imple_244
+wait_on_run imple_245
+wait_on_run imple_246
+wait_on_run imple_247
+wait_on_run imple_248
+wait_on_run imple_249
+wait_on_run imple_250
+wait_on_run imple_251
+wait_on_run imple_252
+wait_on_run imple_253
+wait_on_run imple_254
+wait_on_run imple_255
+wait_on_run imple_256
+reset_run impl_1
+reset_run imple_230
+reset_run imple_231
+reset_run imple_232
+reset_run imple_233
+reset_run imple_234
+reset_run imple_235
+reset_run imple_236
+reset_run imple_237
+reset_run imple_238
+reset_run imple_239
+reset_run imple_240
+reset_run imple_241
+reset_run imple_242
+reset_run imple_243
+reset_run imple_244
+reset_run imple_245
+reset_run imple_246
+reset_run imple_247
+reset_run imple_248
+reset_run imple_249
+reset_run imple_250
+reset_run imple_251
+reset_run imple_252
+reset_run imple_253
+reset_run imple_254
+reset_run imple_255
+reset_run imple_256
+reset_run synth_1
+reset_run synth_8
+launch_runs synth_1 impl_1 synth_8 imple_230 imple_231 imple_232 imple_233 imple_234 imple_235 imple_236 imple_237 imple_238 imple_239 imple_240 imple_241 imple_242 imple_243 imple_244 imple_245 imple_246 imple_247 imple_248 imple_249 imple_250 imple_251 imple_252 imple_253 imple_254 imple_255 imple_256 -jobs 8
+wait_on_run synth_1
+wait_on_run impl_1
+wait_on_run synth_8
+wait_on_run imple_230
+wait_on_run imple_231
+wait_on_run imple_232
+wait_on_run imple_233
+wait_on_run imple_234
+wait_on_run imple_235
+wait_on_run imple_236
+wait_on_run imple_237
+wait_on_run imple_238
+wait_on_run imple_239
+wait_on_run imple_240
+wait_on_run imple_241
+wait_on_run imple_242
+wait_on_run imple_243
+wait_on_run imple_244
+wait_on_run imple_245
+wait_on_run imple_246
+wait_on_run imple_247
+wait_on_run imple_248
+wait_on_run imple_249
+wait_on_run imple_250
+wait_on_run imple_251
+wait_on_run imple_252
+wait_on_run imple_253
+wait_on_run imple_254
+wait_on_run imple_255
+wait_on_run imple_256
+reset_run synth_1
+reset_run imple_230
+reset_run imple_231
+reset_run imple_232
+reset_run imple_233
+reset_run imple_234
+reset_run imple_235
+reset_run imple_236
+reset_run imple_237
+reset_run imple_238
+reset_run imple_239
+reset_run imple_240
+reset_run imple_241
+reset_run imple_242
+reset_run imple_243
+reset_run imple_244
+reset_run imple_245
+reset_run imple_246
+reset_run imple_247
+reset_run imple_248
+reset_run imple_249
+reset_run imple_250
+reset_run imple_251
+reset_run imple_252
+reset_run imple_253
+reset_run imple_254
+reset_run imple_255
+reset_run imple_256
+reset_run synth_8
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top spatial_working_memory [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+launch_runs synth_8 -jobs 8
+wait_on_run synth_8
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+reset_run synth_1
+reset_run synth_8
+launch_runs synth_1 synth_8 -jobs 8
+wait_on_run synth_1
+wait_on_run synth_8
+reset_run synth_8
+reset_run synth_1
+launch_runs synth_8 synth_1 -jobs 8
+wait_on_run synth_8
+wait_on_run synth_1
+report_utilization
+report_utilization synth_1
+report_utilization --help
+report_utilization -help
